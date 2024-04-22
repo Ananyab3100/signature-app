@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Signature-App</title>
+</head>
+<body>
+<div class="container">
+    <div class="text">
+        <h1>Draw your eSignature here</h1>
+    </div>
+    <!-- <div class="picker">
+    <div class="box">
+        <p>Text color picker</p>
+        <div class='obox'>
+            <button class="ibox text-box">
+
+            </button>
+        </div>
+    </div>
+    <div class="box">
+        <p>Background</p>
+        <div class='obox'>
+            <button class="ibox background-box">
+
+            </button>
+        </div>
+    </div>
+
+    <div class="box">
+        <p>Font size</p>
+        <div class='obox'>
+            <button class="ibox">
+
+            </button>
+        </div>
+    </div>
+        
+
+    </div> -->
+<canvas id="draw" width="700px" height="400px"></canvas> 
+<div id="btn">
+    <button class="red button">Clear</button>
+    <button class="green button"><a id='downloadlink' href="#" download="canvas_drawing.png">Save & Download</a></button>
+    <button class="yellow button">Retrieve saved signature</button>
+</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

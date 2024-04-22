@@ -1,0 +1,93 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 40px;
+}
+#draw{
+    border: solid black 2px;
+    width:700px ;
+    height :400px;
+}
+
+#btn{
+    padding-top: 25px;
+    display:flex;
+    flex-direction: row;
+    gap:40px;
+    
+}
+.button{
+    height:30px;
+    width:180px;
+    border: none;
+    border-radius: 10px;
+    color:white;
+}
+.red{
+    background-color:rgb(232, 52, 52);
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: rgb(209, 180, 13);
+}
+
+.picker{
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: center; 
+    gap:15px;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    cursor: pointer;
+}
+
+.obox{
+    width:200px;
+    height:30px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.ibox{
+    background-color: black;
+    padding: 3px;
+    height:50%;
+    width:90%;
+    border-radius: 5px;
+}
+#downloadlink{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 470px) {
+  .container{
+  max-width : 100vw;
+  max-height: 100vh;
+  }
+   #draw{
+    width:400px;
+    height: 200px;
+   }
+   #btn{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+  .button {
+    height: 30px; /* Reduce button height for smaller screens */
+}
+}
+
